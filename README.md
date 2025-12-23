@@ -95,7 +95,7 @@ student-performance-risk/
 │
 ├── .gitignore
 ├── README.md
-└── requirements.txt
+└── requirements.txt```
 
 ---
 
