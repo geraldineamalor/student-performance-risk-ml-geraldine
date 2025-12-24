@@ -75,6 +75,8 @@ The confusion matrix indicates that the model correctly classified all samples i
 ```text
 student-performance-risk/
 │
+├── app.py
+│
 ├── assets/
 │   └── confusion_matrix.png
 │
