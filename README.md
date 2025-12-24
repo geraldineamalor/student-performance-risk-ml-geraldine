@@ -72,7 +72,7 @@ The confusion matrix indicates that the model correctly classified all samples i
 
 ## Project Structure
 
-```text
+```bash
 student-performance-risk/
 │
 ├── assets/
@@ -95,7 +95,8 @@ student-performance-risk/
 │
 ├── .gitignore
 ├── README.md
-└── requirements.txt```
+└── requirements.txt
+```
 
 ---
 
@@ -117,15 +118,18 @@ student-performance-risk/
 ```bash
 git clone https://github.com/geraldineamalor/student-performance-risk.git
 cd student-performance-risk
+```
 
 ### 2. Install Required Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Train the Model
 ```bash
 python src/train_regression.py
 python src/train_classifier.py
+```
 
 ---
 
