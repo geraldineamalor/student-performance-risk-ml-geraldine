@@ -1,4 +1,11 @@
 # Student Performance Risk Prediction using Machine Learning
+## Live Demo
+
+The application is deployed using Streamlit Cloud and can be accessed here:
+
+🔗 https://student-performance-risk-ml-geraldine.streamlit.app/
+
+---
 
 This project implements an end-to-end machine learning pipeline to analyze student academic data and predict both performance scores and risk levels.  
 It combines regression and classification techniques to help identify students who may require academic support at an early stage.
@@ -135,6 +142,14 @@ python src/train_classifier.py
 
 ---
 
+## Application Interface
+
+Below is the deployed Streamlit application interface used for real-time prediction:
+
+![Streamlit App UI](assets/app_ui.png)
+
+---
+
 ## Key Technologies
 
 - Built regression and classification models from scratch
@@ -150,3 +165,10 @@ python src/train_classifier.py
 - Apply feature scaling
 - Add cross-validation
 - Deploy as a web application
+
+---
+
+## Deployment
+
+The project is deployed using Streamlit Community Cloud.  
+The app loads trained models from serialized `.pkl` files and performs real-time predictions based on user input.
