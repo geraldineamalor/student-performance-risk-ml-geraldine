@@ -72,7 +72,7 @@ The confusion matrix indicates that the model correctly classified all samples i
 
 ## Project Structure
 
-```bash
+```text
 student-performance-risk/
 │
 ├── assets/
@@ -135,16 +135,16 @@ python src/train_classifier.py
 
 ## Key Technologies
 
--Built regression and classification models from scratch
--Understood accuracy and confusion matrix interpretation
--Learned model evaluation and visualization
--Designed a clean and modular ML project structure
+- Built regression and classification models from scratch
+- Understood accuracy and confusion matrix interpretation
+- Learned model evaluation and visualization
+- Designed a clean and modular ML project structure
 
 ---
 
 ## Future Improvements
 
--Increase dataset size for better generalization
--Apply feature scaling
--Add cross-validation
--Deploy as a web application
+- Increase dataset size for better generalization
+- Apply feature scaling
+- Add cross-validation
+- Deploy as a web application
