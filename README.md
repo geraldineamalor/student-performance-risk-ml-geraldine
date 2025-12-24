@@ -75,6 +75,10 @@ The confusion matrix helps visualize correct and incorrect predictions for each 
 
 The confusion matrix indicates that the model correctly classified all samples in the evaluation dataset.
 
+### Application Interface
+
+![App UI](assets/app_ui.png)
+
 ---
 
 ## Project Structure
@@ -139,14 +143,6 @@ pip install -r requirements.txt
 python src/train_regression.py
 python src/train_classifier.py
 ```
-
----
-
-## Application Interface
-
-Below is the deployed Streamlit application interface used for real-time prediction:
-
-![Streamlit App UI](assets/app_ui.png)
 
 ---
 
