@@ -17,6 +17,9 @@ if st.button("Predict"):
         "Assignments": assignments,
         "StudyHours": study_hours
     }])
-    prediction_encoded = pipeline.predict(input_data)[0]
-    prediction_label = label_encoder.inverse_transform([prediction_encoded])[0]
+    proba = pipeline.predict_proba(input_data)[0]
+    prediction_index = proba.argmax()
+    prediction_label = label_encoder.inverse_transform([prediction_index])[0]
+    confidence = proba[prediction_index] * 100
     st.success(f"Predicted Risk Level: {prediction_label}")
+    st.info(f"Confidence: {confidence:.2f}%")
