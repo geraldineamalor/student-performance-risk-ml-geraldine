@@ -146,21 +146,31 @@ python src/train_classifier.py
 
 ---
 
-## Key Technologies
+## Key Highlights
 
-- Built regression and classification models from scratch
+- Implemented regression and classification models using scikit-learn
 - Understood accuracy and confusion matrix interpretation
 - Learned model evaluation and visualization
 - Designed a clean and modular ML project structure
 
 ---
 
+## Model Interpretability and Reliability
+
+- Used preprocessing pipelines to ensure consistent feature transformations
+- Handled class imbalance using class-weighted logistic regression
+- Evaluated models using precision, recall, F1-score, and confusion matrix
+- Displayed prediction confidence using probability estimates
+
+---
+
 ## Future Improvements
 
 - Increase dataset size for better generalization
-- Apply feature scaling
-- Add cross-validation
-- Deploy as a web application
+- Add cross-validation for more robust evaluation
+- Experiment with additional classifiers (Decision Trees, Random Forests)
+- Improve handling of class imbalance with resampling techniques
+
 
 ---
 
