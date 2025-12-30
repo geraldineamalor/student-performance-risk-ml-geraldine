@@ -169,8 +169,7 @@ python src/train_classifier.py
 - Increase dataset size for better generalization
 - Add cross-validation for more robust evaluation
 - Experiment with additional classifiers (Decision Trees, Random Forests)
-- Improve handling of class imbalance with resampling techniques
-
+- Improve handling of class imbalance using resampling techniques
 
 ---
 
